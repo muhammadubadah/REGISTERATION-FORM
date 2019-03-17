@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>REGISTRATION FORM</title>
+        <style>
+            h1 {
+                color: rgb(15, 71, 105)
+            }
+            body {
+                background-color: whitesmoke
+            }
+            #course-type1 {
+                background-color: grey; color: navy
+            }
+            #course-type2 {
+                background-color: grey; color: navy
+            }
+            h3 {
+                color: navy; background-color: gray; font-size: 8mm
+            }
+            #important{
+                color: red
+            }
+            h4 {
+                font-size: 12mm; background-color: grey; color: navy
+            }
+        </style>
+    </head>
+    <body>
+        <img src="neduetlogo.jpg" alt="NED UET logo. jpg file" height="150">
+        <h1>Department of <br>BIOMEDICAL Engineering</h1>
+        <h2>Welcome to Registration Portal</h2>
+            <p>Submit the following form carefuly. <br>Once submitted the form cannot be altered, kindly fill in the information correctly. <br> <b> For queries contact the admin department.</b></p>
+        <h3>Courses offered</h3>
+            <p><b><i id="important">*Instructions</i></b><br><i>Choose three courses from technical section and two from social sciences section.</i></p>
+            <ul id="course-type1">
+                <li><b>Technical courses</b></li>
+             </ul>
+             <ol>
+                <li>Bio-informatics</li>
+                <li>Bio-mechanics</li>
+                <li>Robotics</li>
+                <li>Tissue Engineering</li>
+                <li>Data Analysis</li>
+            </ol>
+            <ul id="course-type2">
+                <li><b>Social Science Courses</b></li>
+            </ul>
+            <ol>
+                <li>Neuro Marketing</li>
+                <li>Engineering Economics</li>
+                <li>Philosophy</li>
+                <li>Social Psychology</li>
+            </ol>
+            <h4>Fill the required info</h4>
+            <h5>Personal</h5>
+        <form>
+            Enter Your Name:
+            <input placeholder="required" value="" required><br>
+            Enter Your Roll no:
+            <input placeholder="required" value="" required><br>
+
+            Enter email:
+            <input placeholder="email address" value=""><br>
+            <h5>Course info</h5>
+            <p>Tick the box to select<br><b>Technical Courses</b></p>
+            
+            <ol>
+                    <li>Bio-informatics</li> <input type="checkbox"><br>
+                    <li>Bio-mechanics</li> <input type="checkbox"><br>
+                    <li>Robotics</li> <input type="checkbox"><br>
+                    <li>Tissue Engineering</li> <input type="checkbox"><br>
+                    <li>Data Analysis</li> <input type="checkbox"><br>
+                </ol>
+            <p><b>Social Sciences Courses</b></p>
+            <ol>
+                    <li>Neuro Marketing</li> <input type="checkbox"><br>
+                    <li>Engineering Economics</li> <input type="checkbox"><br>
+                    <li>Philosophy</li> <input type="checkbox"><br>
+                    <li>Social Psychology</li> <input type="checkbox"><br>
+                </ol>
+            *click the submit button to submit.<br>
+            <input type="Submit" value="SUBMIT" placeholder="SUBMIT">
+            
+        </form>
+    </body>
+</html>
